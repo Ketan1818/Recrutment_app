@@ -1,0 +1,299 @@
+#sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: #263043;
+    /* overflow-y: auto; */
+    /* transition: all 0.5s;
+    -webkit-transition: all 0.5s; */
+  }
+  
+  .sidebar-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 0px 30px;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-title > span {
+    display: none;
+  }
+  
+  .sidebar-brand {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .sidebar-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+  }
+  
+  .sidebar-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+  
+  .sidebar-list-item > a {
+    text-decoration: none;
+    color: #9e9ea4;
+  }
+  
+  .sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    /*
+      we want the z-index of the sidebar higher so that
+      the charts are not showing over the sidebar 
+      on small screens
+    */
+    z-index: 12 !important;
+  }
+  .logout{
+    background-color: skyblue;
+    padding: 8px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .footer{
+       justify-content: center;
+       display: flex;
+       align-items: center;
+       text-align: end;
+       /* flex-direction: column; */
+       /* margin-top: 120px; */
+  }
+  .jobs-popup{
+    width: 70vw;
+    height: 55vh;
+    background-color: #fff;
+    border-radius: 30px;
+    position: absolute;
+    /* margin-left: 280px; */
+    /* margin-bottom: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: black;
+  }
+  .inside-c{
+    width: 180px;
+    height: 150px;
+    border-color: rgb(120, 120, 184);
+    /* background-color: red; */
+    border: 1px solid rgb(120, 120, 184);
+    color: rgb(120, 120, 184);
+    border-radius: 20px;
+  }
+  .icon-note{
+   width: 70px;
+   height: 60px;
+   color: rgb(120, 120, 184);
+   margin-top: 20px;
+  }
+  .pop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the last value for transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .close-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: #555;
+    margin: 20PX;
+  
+  }
+  .main2{
+    display: flex;
+
+  }
+  .main-ul{
+   display: flex;
+   list-style: none;
+   justify-content: space-around;
+   gap: 20px;
+   font-size: 13px;
+  }
+  .p{
+    font-size: 16px;
+  }
+  .main3{
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: #f6f9fe;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+  .jobs-popup1{
+    width: 70vw;
+    height: 100vh;
+    background-color: #fff;
+    border-radius: 30px;
+    position: absolute;
+    /* margin-left: 280px; */
+    /* margin-bottom: 50px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    flex-direction: column;
+    color: black;
+  }
+
+  .input-details{
+    height: 400px;
+    /* background-color: red; */
+    width: 730px;
+    display: flex;
+    text-align: left;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 20px;
+    color: black;
+    margin-top: 10px;
+  }
+  .input-details5{
+    height: 200px;
+    /* background-color: red; */
+    width: 730px;
+    display: flex;
+    text-align: left;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 20px;
+    color: black;
+    margin-top: 10px;
+  }
+  .left-input{
+    width: 50%;
+   
+    height: 150px;
+  }
+  .right-input{
+    width: 50%;
+    
+    height: 150px;
+  }
+  .inputs{
+    width: 300px;
+    padding: 8px;
+    height: 28px;
+    border: none;
+    background-color: #f5f4f8;
+    border-radius: 10px;
+  }
+  .btn1{
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    height: 40px;
+  }
+  .main-page3{
+    height: 40vh;
+     width: 55vw;
+   margin-top: 8vh;
+   line-height: 8vh;
+    text-align: left;
+ 
+  }
+  .btn-2{
+    background-color: #5956e9;
+    border: none;
+     font-size: 12px;
+     padding: 8px;
+     border-radius: 5px;
+  }
+  .input-3{
+    width: 50vw;
+    border: none;
+    background-color: #f5f4f8;
+    border-color: #fff;
+    padding: 10px;
+  }
+  .check-icon{
+    margin-right: 5px;
+  }
+  .box{
+    height: 50vh;
+    width: 40vw;
+    margin-top: 10px;
+    line-height: 8vh;
+    display: flex;
+  }
+  .left-box{
+    width: 40%;
+    height: 100%;
+   text-align: left;
+  }
+  .right-box{
+    width: 60%;
+    height: 100%;
+ 
+    text-align: left;
+  }
+  .round{
+    width: 15vw;
+    padding: 8px 8px;
+    border: 1px solid rgb(105, 90, 90);
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .round1{
+    width: 13vw;
+    padding: 8px ;
+    border: 1px solid rgb(105, 90, 90);
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+    border: none;
+  }
+  .sec{
+    width: 25vw;
+    padding: 8px 8px;
+    border: 1px solid rgb(125, 120, 172);
+    border-radius: 5px;
+    font-size: 18px;
+    color:rgb(125, 120, 172) ;
+  }
+  .jobs-popup5{
+    width: 70vw;
+    height: 95vh;
+    background-color: #fff;
+    border-radius: 30px;
+    position: absolute;
+    /* margin-left: 280px; */
+    /* margin-bottom: 50px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    flex-direction: column;
+    color: black;
+  
+    
+  }
