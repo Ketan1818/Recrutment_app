@@ -9,8 +9,7 @@ const port = 5000;
 
 app.use(cors());
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://kambleketan458:Ketan123@cluster0.72hnohz.mongodb.net/?retryWrites=true&w=majority').then((result) => console.log('DB successfully connected')).catch((err) => console.log('Error in DB connection'));
-
+mongoose.connect('mongodb+srv://kambleketan458:1234@cluster0.72hnohz.mongodb.net/?retryWrites=true&w=majority').then((result) => console.log('DB successfully connected')).catch((err) => console.log('Error in DB connection'));
 
 // Define a schema for your data
 const jobSchema = new mongoose.Schema({
