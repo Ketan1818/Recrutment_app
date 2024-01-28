@@ -62,6 +62,9 @@ app.get('/api/getJobs', async (req, res) => {
       res.status(500).json({ success: false, message: 'Internal Server Error' });
     }
   });
+app.get(("/"),(res,req)=>{
+  res.send("hello")
+})
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
