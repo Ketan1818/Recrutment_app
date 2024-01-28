@@ -7,7 +7,11 @@ const cors = require('cors');
 const app = express();
 const port = 5000;
 
-app.use(cors());
+app.use(cors({
+  origin: ['https://deploy-mern-1whq.vercel.app'],
+  methods:['POST',"GET"],
+  credentials: true
+}));
 // Connect to MongoDB
 mongoose.connect('mongodb+srv://kambleketan458:1234@cluster0.72hnohz.mongodb.net/?retryWrites=true&w=majority').then((result) => console.log('DB successfully connected')).catch((err) => console.log('Error in DB connection'));
 
